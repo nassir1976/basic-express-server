@@ -3,7 +3,7 @@
 ### lab- 02 
 ### Autor Nassir Abegaz
 
-- <a href=https://dashboard.heroku.com/apps/nassir-server-deploy-dev class="icon fa-twitter"><span      class="label">go to heroku app </span></a>
+- <a href=https://basic-express-server1.herokuapp.com/ class="icon fa-twitter"><span      class="label">go to heroku app </span></a>
 
 - <a href=https://github.com/nassir1976/basic-express-server class="icon fa-twitter"><span class="label">go to gitHub </span></a>
 
@@ -26,3 +26,13 @@
 - 500 if no name in the query string
 - 200 if the name is in the query string
 - given an name in the query string, the output object is correct
+
+### test 
+
+- unit Test: npm run test 
+- lint Test : npm run lint  
+
+### Documentation
+- Compose a UML or Process/Data Flow Diagram for every application
+
+![WhiteBoard](./assets/whiteboard.png)
