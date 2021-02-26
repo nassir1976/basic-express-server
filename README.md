@@ -7,7 +7,7 @@
 
 - <a href=https://github.com/nassir1976/basic-express-server class="icon fa-twitter"><span class="label">go to gitHub </span></a>
 
-<!-- - <a href=https://github.com/nassir1976/server-deployment-practice/pull/2 class="icon fa-twitter"><span class="label"> pull request </span></a> -->
+- <a href=https://github.com/nassir1976/basic-express-server/pull/2 class="icon fa-twitter"><span class="label"> pull request </span></a> 
 
 ### Phase 1 Requirements
 - From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests.
@@ -29,7 +29,7 @@
 
 ### test 
 
-- unit Test: npm run test 
+- run it Test: npm run test 
 - lint Test : npm run lint  
 
 ### Documentation
