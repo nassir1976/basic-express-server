@@ -6,13 +6,13 @@ const mockRequest = supertest(server); // supertest takes in our server so it ca
 
 // describe -> test suite
 describe('**** API SERVER ****', () => {
-  Xit('should respond with a 500 on a server error', () => {
-    mockRequest.get('/person')
-    .then(results => {
-      console.log(results.status)
-      expect(results.status).toEqual(500);
-    })
-  });
+  // Xit('should respond with a 500 on a server error', () => {
+  //   mockRequest.get('/person')
+  //   .then(results => {
+  //     console.log(results.status)
+  //     expect(results.status).toEqual(500);
+  //   })
+  // });
 
   it('should respond with a 404 on not found', () => {
     mockRequest.get('/no-route')
