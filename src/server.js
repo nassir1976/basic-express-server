@@ -18,7 +18,6 @@ app.get('/person', logger, validator, (req, res, next) => {
   }
   res.status(200).json(resObject) // res.status(200).json({name})
 })
-
 // ===========error-handlers==========
 app.use('*', routeNotFound);
 app.use(errorsFound);
@@ -27,8 +26,7 @@ app.use(errorsFound);
 // module has an object  has a property like  server,start ...
 module.exports = {
   server: app,
-  //start:start
-  start: port => { 
+  start: port => {
     app.listen(port, () => {
       console.log(`listeining:${port}`);
     })
